@@ -18,7 +18,6 @@ RUN cd home && \
 
 RUN mkdir /home/Admin/github && \
 cd /home/Admin/github && \
-git clone https://github.com/Flavia95/VGpop.git  && \
 git clone --recursive https://github.com/vgteam/odgi.git && \
 cd odgi && \
 cmake -H. -Bbuild && \
