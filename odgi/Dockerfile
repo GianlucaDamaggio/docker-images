@@ -18,7 +18,7 @@ RUN cd home && \
 
 RUN mkdir /home/Admin/github && \
 cd /home/Admin/github && \
-git clone --recursive https://github.com/vgteam/odgi.git && \
+git clone --branch v0.4.1 --recursive https://github.com/vgteam/odgi.git && \
 cd odgi && \
 cmake -H. -Bbuild && \
 cmake --build build -- -j 3
